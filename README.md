@@ -1,4 +1,4 @@
-## Useful and nifty es2105 tricks
+## Useful and nifty JavaScript tricks
 
 Sources:
 
