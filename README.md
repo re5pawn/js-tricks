@@ -1,4 +1,6 @@
 ## Useful and nifty JavaScript tricks
+
+[ES2015 and newer :rocket:](/es2015-and-newer) | [ES5 :pushpin:](/es5)
  
 Sources:
  
