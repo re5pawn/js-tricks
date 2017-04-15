@@ -8,4 +8,5 @@ Sources:
 * [Codewars](http://www.codewars.com/)
 * [ES6 In Depth by Mozilla Hacks](https://hacks.mozilla.org/category/es6-in-depth/)
 * [Enki workouts](https://www.enki.com/)
+* [goodmodule](https://github.com/seeden/goodmodule)
 * some other sources
