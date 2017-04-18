@@ -6,6 +6,7 @@ function repeatString(string, times) {
   return Array(times + 1).join(string);
 }
 
-repeatString('foo', 2); // foofoo
-repeatString('bar', 5); // barbarbarbarbar
-repeatString('baz', 1); // baz
+// Usage examples
+repeatString('foo', 2); // 'foofoo'
+repeatString('bar', 5); // 'barbarbarbarbar'
+repeatString('baz', 1); // 'baz'
