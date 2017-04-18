@@ -1,13 +1,11 @@
 const foo = (strings, ...values) => {
-  console.log(strings);
-  console.log(values);
+  console.log('strings', strings);
+  console.log('values', values);
 };
 
 let desc = 'awesome';
 
-// function call
+// Usage example
 foo`Everything is ${desc}!`;
-
-// Output:
-// strings -> ["Everything is ", "!"]
-// values -> ["awesome"]
+// strings ["Everything is ", "!"]
+// values ["awesome"]
