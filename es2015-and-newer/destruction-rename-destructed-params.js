@@ -1,4 +1,7 @@
-const verifyUser = ({ userId: id }) => {
-  // { userId: id } - rename userId to id
-  return User.update({ id, verified: true });
+const getUserId = ({ id: userId }) => {
+  // { id: userId } - rename id to userid
+  return { userId };
 }
+
+// Usage example
+getUserId(123); // { userId: 123 }
