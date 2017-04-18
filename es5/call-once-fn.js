@@ -9,6 +9,7 @@ function once(fn, context) {
   }
 }
 
+// Usage example
 var callOnce = once(function(a, b) { return a + b; });
 
 callOnce(1, 2); // 3
