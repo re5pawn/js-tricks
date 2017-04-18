@@ -9,4 +9,5 @@ Sources:
 * [ES6 In Depth by Mozilla Hacks](https://hacks.mozilla.org/category/es6-in-depth/)
 * [Enki workouts](https://www.enki.com/)
 * [goodmodule](https://github.com/seeden/goodmodule)
+* [learn.javascript.ru](http://learn.javascript.ru/) by [Ilya Kantor](https://github.com/iliakan)
 * some other sources
