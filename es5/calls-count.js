@@ -5,7 +5,7 @@ function callsCount(fn) {
   }
 }
 
-// Usage
+// Usage example
 function sum(a, b) {
   return a + b;
 }
@@ -13,9 +13,7 @@ function sum(a, b) {
 var _sum = callsCount(sum);
 
 _sum(1, 2);
-// before output: Count of calls for "sum": 1
+// before output - Count of calls for "sum": 1
 
 _sum(2, 3);
-// before output: Count of calls for "sum": 2
-
-// ... Count of calls for "sum": N
+// before output - Count of calls for "sum": 2
