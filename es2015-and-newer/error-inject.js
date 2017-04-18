@@ -2,7 +2,7 @@ const errorInject = (paramName) => {
   throw new Error(`Missing parameter "${paramName}"`);
 };
 
-// Usage example
+// usage
 const square = (num = errorInject('num')) => {
   return num * num;
 };

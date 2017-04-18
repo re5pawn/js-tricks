@@ -12,7 +12,7 @@ var isFullChanged = item.foo !== cacheItem.foo
   && item.bar !== cacheItem.bar
   && item.baz !== cacheItem.baz;
 
-// some and every for more readable code
+// 'some' and 'every' for more readable code
 var isChanged = [
   item.foo !== cacheItem.foo,
   item.bar !== cacheItem.bar,

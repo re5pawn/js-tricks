@@ -1,7 +1,7 @@
 const getUserId = ({ id: userId }) => {
-  // { id: userId } - rename id to userid
+  // { id: userId } - rename id to userId
   return { userId };
 }
 
-// Usage example
+// usage
 getUserId(123); // { userId: 123 }

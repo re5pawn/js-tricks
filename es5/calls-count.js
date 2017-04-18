@@ -5,7 +5,7 @@ function callsCount(fn) {
   }
 }
 
-// Usage example
+// usage
 function sum(a, b) {
   return a + b;
 }

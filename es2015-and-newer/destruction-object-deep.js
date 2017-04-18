@@ -9,7 +9,7 @@ function settings() {
   };
 }
 
-// Usage example
+// usage
 const {
   display: {
     color: displayColor

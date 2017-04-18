@@ -2,7 +2,7 @@ function getTypeOf(entity) {
   return Object.prototype.toString.call(entity).slice(8, -1);
 }
 
-// Usage examples
+// usage
 getTypeOf([]); // 'Array'
 getTypeOf({}); // 'Object'
 getTypeOf(''); // 'String'
@@ -15,5 +15,5 @@ getTypeOf(new Set()); // 'Set'
 getTypeOf(new Map()); // 'Map'
 getTypeOf(Symbol.for('foo')); // 'Symbol'
 
-// Beware!
+// beware!
 getTypeOf(NaN); // 'Number'

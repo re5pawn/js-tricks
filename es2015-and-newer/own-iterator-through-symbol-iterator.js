@@ -29,7 +29,7 @@ let collection = (() => {
   }
 })();
 
-// Usage example
+// usage
 for (let item of collection) {
   console.log(item);
   // 2

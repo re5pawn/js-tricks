@@ -1,4 +1,4 @@
-// some base class
+// base class
 var Machine = (function() {
   // private property
   var enabled = false;
@@ -33,7 +33,7 @@ var CoffeeMachine = (function() {
     };
   }
 
-  // If parent's mathods are in the prototype
+  // if parent's methods are in the prototype
   // for get access to them:
   CoffeeMachine.prototype = Object.create(Machine.prototype);
   CoffeeMachine.prototype.constructor = Machine;
@@ -44,6 +44,6 @@ var CoffeeMachine = (function() {
 var coffeeMachine = new CoffeeMachine(10000);
 
 coffeeMachine.enable(); // parent's method
-coffeeMachine.setWaterAmount(100);
+coffeeMachine.setWaterAmount(100); // own method
 coffeeMachine.disable(); // parent's method
 coffeeMachine.getState(); // parent's prototype method

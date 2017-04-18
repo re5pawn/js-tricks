@@ -5,7 +5,7 @@ const foo = (strings, ...values) => {
 
 let desc = 'awesome';
 
-// Usage example
+// usage
 foo`Everything is ${desc}!`;
 // strings ["Everything is ", "!"]
 // values ["awesome"]

@@ -6,7 +6,7 @@ function delay(milliseconds) {
   };
 }
 
-// Usage examples
+// usage
 delay(1000)('hello')
   .then(result => console.log(result)); // 'hello' after 1 sec.
 

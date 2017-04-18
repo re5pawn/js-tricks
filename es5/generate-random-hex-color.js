@@ -2,5 +2,5 @@ function getRandomHexColor() {
   return '#' + Math.random().toString(16).substr(-6);
 }
 
-// Usage example
+// usage
 getRandomHexColor(); // smth like - '#a48338'

@@ -4,7 +4,7 @@ function shuffle(array) {
   });
 }
 
-// Usage example
+// usage
 var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 var list2 = [{a: 'a'}, {b: 'b'}, 23, Date(), [1,2,3]];
 
