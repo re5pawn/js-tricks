@@ -13,8 +13,6 @@ let users = [
 ];
 
 tmpl(users);
-
-// Output:
 // <ul>
 //   <li>John Doe: 34</li>
 //   <li>Jane Smith: 45</li>
