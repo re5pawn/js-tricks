@@ -1,11 +1,11 @@
-const errorInject = () => {
-  throw new Error('Missing parameter');
+const errorInject = (paramName) => {
+  throw new Error(`Missing parameter "${paramName}"`);
 };
 
-// example to use
-const square = (requiredNum = errorInject()) => {
-  return requiredNum * requiredNum;
-}
+// Usage example
+const square = (num = errorInject('num')) => {
+  return num * num;
+};
 
-square(); // Uncaught Error: Missing parameter
+square(); // Uncaught Error: Missing parameter "num"
 square(11); // 121
