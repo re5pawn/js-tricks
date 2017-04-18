@@ -3,6 +3,7 @@ function sleep(milliseconds) {
   while (new Date().getTime() < endTime) {};
 }
 
+// Usage example
 sleep(5000);
 
 // will log after 5 sec.
