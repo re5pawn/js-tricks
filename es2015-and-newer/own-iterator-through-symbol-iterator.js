@@ -8,23 +8,33 @@ let collection = (() => {
     },
 
     next() {
-      if (current >= data.length - 1) {
+      if (current === data.length - 1) {
         current = -1;
-        return { done: true, value: data[current] };
+        return {
+          value: data[current],
+          done: true
+        };
       } else {
-        return { done: false, value: data[current += 2] };
+        return {
+          value: data[current += 2], // custom iteration logic
+          done: false
+        };
       }
     },
 
     return() {
-      // will call when for-of will stop through break or throw
+      // calls when for-of will stop through break or throw
       current = -1;
     }
   }
 })();
 
-// usage
-// print - 2, 4, 6, 8, 10
+// Usage example
 for (let item of collection) {
-  console.info('current item:', item);
+  console.log(item);
+  // 2
+  // 4
+  // 6
+  // 8
+  // 10
 }
