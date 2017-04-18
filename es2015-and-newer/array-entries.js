@@ -6,7 +6,6 @@ const arr = ['a', 'b', 'c'];
  */
 for (const [index, elem] of arr.entries()) {
   console.log(`index = ${index}, elem = ${elem}`);
-  // output:
   // index = 0, elem = a
   // index = 1, elem = b
   // index = 2, elem = c
