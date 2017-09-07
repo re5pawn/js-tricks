@@ -25,6 +25,7 @@ let collection = (() => {
     return() {
       // calls when for-of will stop through break or throw
       current = -1;
+      return this;
     }
   }
 })();
